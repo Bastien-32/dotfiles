@@ -1,0 +1,21 @@
+do ctl + shift + p in vs code
+
+Fill in the menu "Preferences : Open User Settings (JSON)"
+
+{
+	"files.autoSave": "afterDelay",
+	"42header.email": "marvin@42.fr",
+	"42header.username": "badal-la",
+
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"editor.renderWhitespace": "all",
+	"[c]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"workbench.colorCustomizations": {
+		"editorWhitespace.foreground": "#34da1a" // click on the square for choose your tab and space color
+	}
+}
